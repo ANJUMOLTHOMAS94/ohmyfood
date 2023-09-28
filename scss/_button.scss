@@ -26,3 +26,59 @@
     align-items: center;
     flex-direction: column;
 }
+
+.button-like{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    .button-like-liked{
+        transition: opacity 300ms;
+        opacity:0;
+    }
+
+&:hover{
+    .button-like-liked{
+        opacity:1;
+        background: linear-gradient(to bottom,$secondary-color, $primary-color);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+        &.fade{
+           animation-name: heart; 
+           animation-duration: 500ms;
+        }
+    
+    }
+}
+
+    .button-like-icon{
+        position:absolute; 
+        height: 30px;
+        width: 30px;
+        font-size:25px;
+        top:0;
+        left:0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@keyframes heart{
+    0%{
+        opacity:0;
+        font-size: 16px;
+    }
+    70%{
+        opacity: 0.8;
+        font-size: 30px;
+
+    }
+    100%{
+        opacity:0; 
+    }
+}
