@@ -1,0 +1,28 @@
+.button {
+    display: inline-block;
+    background-image: linear-gradient(to bottom,$secondary-color, $primary-color);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.3);
+    
+    color: #FFFF;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    object-fit: none;
+    border: 0;
+    
+    min-width: 180px;
+   text-align: center;
+    padding: 15px 20px;
+    transition: box-shadow 300ms;
+    transition: filter 300ms;
+}
+.button:hover {
+    filter: brightness(1.1);
+    align-items: center;
+}
+.order_button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

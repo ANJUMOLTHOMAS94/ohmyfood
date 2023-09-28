@@ -1,0 +1,39 @@
+.container {
+
+    max-width: 800px;
+    padding: 0 20px;
+    margin: auto;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    gap: 50px;
+}
+.gap{
+    
+    
+    padding-right: 10px;
+}
+
+.column {
+    width: 100%;
+}
+
+.spacer {
+    margin-bottom: 20px;
+}
+.menu-spacer {
+    margin-bottom: 30px;
+}
+
+.right{
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
+
+}
