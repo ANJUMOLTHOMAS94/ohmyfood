@@ -278,7 +278,7 @@ body {
   box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.1803921569);
 }
 .choice_list .choice_list_item.choice_list_item.active {
-  background-color: white;
+  background-color: #f5edff;
 }
 .choice_list .choice_list_item.choice_list_item.active .choice_list_item_number {
   background-color: #9356DC;
