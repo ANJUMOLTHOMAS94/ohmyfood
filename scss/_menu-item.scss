@@ -3,7 +3,11 @@
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     padding: 20px;
+
 }
+
+
+
 .menu{
     background-color: #fff;
     box-shadow: 1px 3px 15px 0 rgba(0, 0, 0, 0.16);
@@ -14,6 +18,11 @@
     cursor: pointer;
     overflow: hidden;
     display: flex;
+
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 
     .menu-item-price{
         display: flex;
@@ -70,6 +79,22 @@
     }
     
 }
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    70% {opacity: 0.8;}
+    100% {opacity: 1;}
+ }
+ 
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
+
 .menu-heading{
     font-weight: 5px;
     
@@ -89,6 +114,7 @@
     
 
 }
+
 
 
 

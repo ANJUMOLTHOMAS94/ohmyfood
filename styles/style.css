@@ -359,6 +359,10 @@ body {
   cursor: pointer;
   overflow: hidden;
   display: flex;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 .menu .menu-item-price {
   display: flex;
@@ -404,6 +408,30 @@ body {
   transform: rotate(360deg);
   transition: transform 1s;
   color: white;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 
 .menu-heading {
