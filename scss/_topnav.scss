@@ -21,12 +21,19 @@ section, nav{
     padding:20px;
 }
 
-.back-to-main{
-    
- gap:90px;
-}
+
 .back-to-main-icon{
+    display: inline;
     padding:20px;
     justify-content: space-around;
     align-items: center;
+}
+.navigation_bar{
+
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 50px;
+    align-items: flex-start;
 }
