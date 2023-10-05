@@ -290,17 +290,27 @@ body {
 }
 
 .restaurant_section {
-  width: 100%;
+  /*width:100%;*/
   padding: 20px;
   flex-shrink: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .restaurant_section {
+    display: flex;
     width: auto;
+    background-color: red;
     flex-wrap: wrap;
   }
 }
+@media (min-width: 992px) {
+  .restaurant_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
 .choice_list {
   list-style: none;
   display: flex;
