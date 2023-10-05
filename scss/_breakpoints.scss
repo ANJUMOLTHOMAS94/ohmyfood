@@ -1,0 +1,15 @@
+$breakpoints:(
+'small':768px,
+'medium':992px,
+'large':1200px
+)!default;
+
+@mixin breakpoint($user-value){
+    $my-map: map-get($breakpoints, $user-value );
+    @if my-map{
+        @media (min-width: map-get($breakpoints, $user-value))
+        {
+            @content;
+        }
+    }
+};
