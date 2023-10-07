@@ -132,6 +132,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 }
 
 @keyframes heart {
@@ -325,6 +326,12 @@ body {
 
 .card-text {
   margin: 0;
+}
+
+.card-link::after {
+  display: block;
+  position: absolute;
+  background-color: red;
 }
 
 .restaurant_section {

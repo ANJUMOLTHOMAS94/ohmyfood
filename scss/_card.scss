@@ -23,6 +23,12 @@ margin: 0;
 .card-text{
 margin:0;
 }
+.card-link::after{
+    
+    display: block;
+    position:absolute;
+    background-color: red;
+}
 
 .restaurant_section {
     /*width:100%;*/
