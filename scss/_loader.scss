@@ -18,6 +18,18 @@
   animation-duration: 1s;
   
 }
+@keyframes pre-loader {
+  0%{
+    opacity: 1;
+  }
+  99%{
+    opacity:0;
+  }
+  100%{
+    height:0;
+   
+  }
+}
 
 .loader {
     border: 3px solid #fff;
@@ -39,16 +51,5 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   } 
-  @keyframes pre-loader {
-    0%{
-      opacity: 1;
-    }
-    99%{
-      opacity:0;
-    }
-    100%{
-      height:0;
-     
-    }
-  }
+  
   
