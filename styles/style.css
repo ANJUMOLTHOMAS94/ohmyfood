@@ -331,7 +331,6 @@ body {
 .card-link::after {
   display: block;
   position: absolute;
-  background-color: red;
 }
 
 .restaurant_section {
