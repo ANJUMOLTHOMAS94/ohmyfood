@@ -190,7 +190,6 @@ section, nav {
 
 .navigation_bar {
   position: relative;
-  left: 20px;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -199,7 +198,8 @@ section, nav {
 }
 
 .nav-button {
-  /*padding: 30px;*/
+  position: absolute;
+  left: 30px;
 }
 
 .nav-heading {
