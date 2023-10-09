@@ -9,16 +9,14 @@ section, nav{
 }
 .topnav {
     display: flex;
-    width: 100%;
     justify-content: center;
     height:50px;
+    align-items: center;
+    gap:10px;
 }
 .topnav-location{
     font-weight: 500;
  gap:90px;
-}
-.location-icon{
-    padding:20px;
 }
 
 

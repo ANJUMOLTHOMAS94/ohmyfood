@@ -34,6 +34,7 @@
     border: 0;
     background-color: transparent;
     cursor: pointer;
+    z-index:3;
 
     .button-like-liked{
         transition: opacity 300ms;
