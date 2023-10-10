@@ -3,7 +3,7 @@
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     padding: 20px;
-
+    white-space: nowrap;
 }
 
 
@@ -31,13 +31,11 @@
         justify-content: space-around;
         align-items: flex-end;
     }
-
     &:hover{
         .menu-item-checkmark{
             width:75px;
         }
         .menu-item-checkmark-icon{
-            
             -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
         }
