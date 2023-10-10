@@ -352,6 +352,7 @@ body {
   height: 30px;
   background-color: #99e2d0;
   background-size: cover;
+  border-radius: 2px;
   text-align: center;
   color: #259d7f;
   display: flex;
