@@ -256,7 +256,7 @@ section, nav {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 30px;
+  font-size: 30px;
 }
 
 .title {
@@ -273,7 +273,7 @@ body {
 }
 
 .f-list {
-  font-weight: 80px;
+  font-size: 80px;
   color: #e7e7e7;
 }
 
@@ -591,7 +591,7 @@ body {
 }
 
 .menu-heading {
-  font-weight: 5px;
+  font-size: 5px;
   position: relative;
 }
 
